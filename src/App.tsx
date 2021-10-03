@@ -1,12 +1,16 @@
 import { BrowserRouter, Route } from 'react-router-dom';
 import './App.scss';
 import Home from './pages/home'
+import GlobalStyle  from './theme/globalStyles'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Route path={''} exact component={Home} />
-    </BrowserRouter>
+    <>
+      <GlobalStyle />
+      <BrowserRouter>
+        <Route path={''} exact component={Home} />
+      </BrowserRouter>
+    </>
   );
 }
 

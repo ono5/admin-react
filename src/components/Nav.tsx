@@ -1,5 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.min.js'
+// import 'bootstrap/dist/js/bootstrap.min.js'
+import '@fortawesome/fontawesome-free/js/brands'
+import '@fortawesome/fontawesome-free/js/solid'
+import '@fortawesome/fontawesome-free/js/fontawesome'
+
 import './Nav.scss'
 
 const Nav = () => {
@@ -17,6 +21,13 @@ const Nav = () => {
 				<div className="bottom-border pb-3">
 				  <a href="#" className="text-white">Home</a>
 				</div>
+				<ul className="navbar-nav flex-column">
+					<li className="nav-item">
+						<a href="#" className="nav-link">
+							<i className="fas fa-home"></i>
+						</a>
+					</li>
+				</ul>
 			  </div>
 			  {/* <!-- end of sidebar --> */}
 
