@@ -12,7 +12,7 @@ npx create-react-app admin --template typescript
 npm install react-router-dom
 npm i --save-dev @types/react-router-dom
 npm i --save-dev @types/react
-npm i bootstrap
+yarn add bootstrap@4.1.3
 yarn add jquery bootstrap @popperjs/core
 yarn add node-sass
 npm install -s node sass
